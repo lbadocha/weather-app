@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.search-city {
+  padding: 30px;
+}
+
+.cities-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cities-list .city {
+  flex-basis: 33.33%;
+  border: 1px solid #000;
+}
